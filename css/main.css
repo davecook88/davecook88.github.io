@@ -392,6 +392,9 @@ section.success {
   .social-media {
     display:none;
   }
+  #bottom{
+    display:block;
+  }
   .soc-med {
   margin:.2em;
   font-size:2.5em;
