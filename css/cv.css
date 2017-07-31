@@ -1,0 +1,32 @@
+body {
+  height:100vh;
+  background-color:#000;
+  color:#fff;
+}
+.content h3, .content p {
+  color:#fff;
+}
+header .container {  
+  height:100vh;
+}
+#headings{
+  margin-top:15vh;
+  color:#565656;
+}
+#headings h1:hover{
+  color:#fff;
+}
+.content {
+  text-align:left;
+  color:#fff;
+}
+.disappear {
+  display:none;
+}
+
+#sidebar {
+  background-color:#0A1612;
+}
+#social-media {
+  margin:0;
+}
