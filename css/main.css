@@ -137,7 +137,7 @@ div#maincontent {
 #social-media {
   position:relative;
   height:12vh;
-  width:110%;
+  width:100vw;
   background-color:white;
   margin:-1em;
   z-index:1;
@@ -384,10 +384,13 @@ section.success {
   background-position-x:-150px;
 }
   div#maincontent {
-    background-position-x:-250px;
+    min-height:100vh;
   }
   #title-box{
     top:1em;
+  }
+  #social-media {
+    display:none;
   }
   .soc-med {
   margin:.2em;
