@@ -305,6 +305,7 @@ section#portfolio {
   font-weight: 500;
   margin:0px;
   opacity:0.9;
+  max-width:100vw;
 }
 .navbar-custom .navbar-brand {
   color: #D7CEC7;
