@@ -1,16 +1,39 @@
-$("#headings > div").hover(showDetails);
+$(".head").hover(function() {
+  removeWhiteText(".head");
+  showDetails(".content > div", this);
+});
+$(".subheading").hover(function(){
+  removeWhiteText(".subheading");
+  showDetails(".details", this); 
+});
 
-function showDetails() {
-  var selected = $(this)[0].id;
-  var selectedContent = "#" + selected +"-content";
+function removeWhiteText(elClass) {
+  $(elClass).each(function(){
+    $(this).removeClass("white-text");
+  })
+}
+
+
+
+function showDetails(str, el) {
+  var selected = $(el)[0].id;
+  var selectedContent = "#" + selected + "-content";
+  var classArray = ["disappear"];
+  $(el).addClass("white-text");
   
   $(selectedContent).removeClass("disappear");
-  $(".content > div").each(function(){
-    var s = selected + "-content";
-    var thisID = this.id;
-    var hasDisappear = $(this).hasClass("disappear")
-    if(thisID != s && hasDisappear === false){
-      $(this).addClass("disappear");
+  
+  $(str).each(function() {
+    for (var i in classArray){
+      removeClasses(classArray[i], this);
+    }      
+  });
+  function removeClasses(cl, obj){
+      var s = selected + "-content";
+      var thisID = obj.id;
+      var hasClass = $(obj).hasClass(cl);
+      if (thisID != s && hasClass === false) {
+        $(obj).addClass(cl);
+      }
     }
-  })
 }
