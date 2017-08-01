@@ -1,10 +1,25 @@
 body {
-  height:100vh;
+  height:110vh;
   background-color:#000;
-  color:#fff;
+  color:#565656;
 }
-.content h3, .content p {
-  color:#fff;
+a#link {
+  color:#44d9e6;
+}
+ul,p{
+  font-size:1.2em;
+}
+h5 {
+  font-size:1.4em;
+}
+.content h3, .content p, li {
+  //color:inherit;
+}
+.content div {
+  color:#565656;
+}
+.white-text, .details {
+  color:#fff !important;
 }
 header .container {  
   height:100vh;
@@ -13,20 +28,58 @@ header .container {
   margin-top:15vh;
   color:#565656;
 }
-#headings h1:hover{
-  color:#fff;
+.head{
+  margin:0em 1em;
+  text-align:center;
 }
 .content {
   text-align:left;
   color:#fff;
+  margin-bottom:4em;
 }
 .disappear {
   display:none;
 }
 
-#sidebar {
-  background-color:#0A1612;
+#education, #skills {
+  border-bottom:1px solid #44d9e6;
 }
-#social-media {
-  margin:0;
+#education:before, #skills:before {
+  content: "";
+  position: absolute;
+  background: #44d9e6;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  opacity:0.5;
+  -webkit-transition: top 0.2s ease-in;
+}
+
+#education:hover:before, #skills:hover:before {
+  top: 0;
+}
+
+#employment, #interests {
+  border-bottom:1px solid #e65144;
+}
+#employment:before, #interests:before {
+  content: "";
+  position: absolute;
+  background: #e65144;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  opacity:0.5;
+  -webkit-transition: top 0.2s ease-in;
+}
+
+#employment:hover:before, #interests:hover:before {
+  top: 0;
+}
+#interests-text{
+  padding:2em;
 }
