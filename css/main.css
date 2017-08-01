@@ -161,16 +161,13 @@ background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, F
 .white-text {
   color:white;
 }
-#phone-email-box{
+#phone-email-box, #spanish{
   text-align:left;
   padding:0.5em 2em;
   font-size:1.3em;
   line-height:2.5em;
 }
-#spanish{
-  font-size:1.3em;
-  line-height:2.5em;
-}
+
 .fa:hover {
   text-shadow: 2px 0px 10px rgba(255, 255, 255, 0.8);
 }
