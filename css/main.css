@@ -110,6 +110,7 @@ h2 .header {
   border-radius:5px;
   float:right;
   font-weight:bold;
+  margin:0.7em;
 }
 .spacer{
   border-bottom:5px solid #565656;
