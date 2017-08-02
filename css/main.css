@@ -496,6 +496,6 @@ section.success {
   transition: top 0.1s ease-in, background 0.5s linear;
 }
 .black-font {
-  color:black !important;
+  color:black;
 }
 
