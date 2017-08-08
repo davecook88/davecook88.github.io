@@ -37,13 +37,6 @@ header .container {
   color:#fff;
   margin-bottom:4em;
 }
-.content:focus,
-.content:hover{
-  outline: 0;
-  outline-color: transparent;
-  outline-style: none;
-}
-}
 .disappear {
   display:none;
 }
