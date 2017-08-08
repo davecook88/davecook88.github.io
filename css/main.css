@@ -133,8 +133,6 @@ div#maincontent {
   position:relative;
   height:12vh;
   width:100vw;
-  background-color:white;
-  margin:-1em;
   z-index:1;
   text-align:center;
 background: #360033;  /* fallback for old browsers */
