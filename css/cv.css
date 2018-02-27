@@ -14,6 +14,10 @@ ul,p{
 h5 {
   font-size:1.4em;
 }
+div{
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
+-webkit-tap-highlight-color: transparent
+ } 
 .content h3, .content p, li {
   //color:inherit;
 }
