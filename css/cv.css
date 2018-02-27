@@ -16,13 +16,15 @@ h5 {
 }
 div{
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
--webkit-tap-highlight-color: transparent
+-webkit-tap-highlight-color: transparent;
+  
  } 
 .content h3, .content p, li {
   //color:inherit;
 }
 .content div {
   color:#565656;
+  outine:0;
 }
 .white-text, .details {
   color:#fff !important;
