@@ -19,6 +19,9 @@ div{
 -webkit-tap-highlight-color: transparent;
   
  } 
+.body-link{
+  color:#ff5050;
+}
 .content h3, .content p, li {
   //color:inherit;
 }
